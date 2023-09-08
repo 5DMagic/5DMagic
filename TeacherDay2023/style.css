@@ -1,0 +1,610 @@
+.content__bg_image
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*样式初始化*/
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input, textarea, select {
+  *font-size: 100%;
+}
+
+em {
+  font-style: normal;
+}
+
+img {
+  border: 0;
+}
+
+blockquote, body, caption, dd, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, input, label, legend, li, object, ol, p, pre, span, strong, table, tbody, td, tfoot, th, thead, tr, ul {
+  border: 0 none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+}
+
+body, html {
+  font: 12px/1.25 'Microsoft YaHei',sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:focus {
+  outline: 0;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a {
+  outline: 0;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both
+}
+.relative {
+  position: relative;
+}
+.pl3{
+	padding-left:3px;
+}
+
+/*样式开始*/
+
+body {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.base_bottom {
+    width: 100%;
+    min-width: 960px;
+    overflow: hidden;
+}
+
+#main {
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background: #1355b3;
+}
+
+.ic_reflection_box_item1{
+    width: 440px;
+    margin: 0px auto;
+}
+.ic_reflection_box_minion{
+	width: 168px;
+    float:left;
+
+}
+.ic_reflection_box_item2{
+    width: 460px;
+    float:left;
+}
+.ic_reflection_box {
+	width: 76px;
+	height: 76px;
+	position: relative;
+	float:left;
+}
+.ic_reflection_box p{
+    width:188px;
+    color:#121259;
+    font-size: 14px;
+    padding:13px 61px;
+}
+.ic_reflection_box .bigimg{
+	position:absolute;
+	top:50px;
+	left:15px;
+	z-index: 10;
+	display: none;
+}
+.ic_reflection_box:hover .bigimg{
+    display:block;
+}
+
+.ic_reflection_box .ic_reflection_frame {
+	width: 76px;
+	height: 76px;
+	background: url(https://static.web.sdo.com/jijiamobile/pic/ff14/20230724moonfirefaire/reflection_frame.png) 0 0 no-repeat;
+	position: absolute;
+	top: 2px;
+	left: 0px;
+
+}
+
+.ic_reflection_box img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+}
+
+.ic_reflection_box img.ic_reflection {
+	margin: 5px 0 0 6px;
+}
+.ic_reflection_box2 {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	float:left;
+	display:block;
+}
+.ic_reflection_box2 p{
+    width:188px;
+    color:#121259;
+    font-size: 14px;
+    padding:13px 61px;
+}
+.ic_reflection_box2 .bigimg{
+	position:absolute;
+	top:50px;
+	left:15px;
+	z-index: 10;
+	display: none;
+}
+
+.ic_reflection_box2 .ic_reflection_frame {
+	width: 48px;
+	height: 48px;
+	background: url(https://static.web.sdo.com/jijiamobile/pic/ff14/20230724moonfirefaire/reflection_frame2.png) 0 0 no-repeat;
+	position: absolute;
+	top: 3px;
+	left: 2px;
+
+}
+
+.ic_reflection_box2 img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+}
+
+.ic_reflection_box2 img.ic_reflection {
+	margin: 5px 0 0 6px;
+}
+
+.left{
+	float: left;
+}
+.m_left{
+	margin-left: 50px;
+}
+.box{
+	margin-bottom: 80px;
+}
+
+#main #contents {
+    margin-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.content__main-art{
+    width: 100%;
+    padding-top: 500px;
+    overflow: hidden;
+    max-width: 1280px;
+    min-width: 720px;
+    margin:0 auto;
+    background: url(500_bg.jpg) center top no-repeat #fff;
+    position: relative;
+}
+.content__wrapper{
+	position: relative;
+    width: 960px;
+    height: 1%;
+    margin: 0 auto;
+}
+.content__wrapper__bg--header{
+    margin-top:0px;
+	position: relative;
+	z-index: 2;
+	text-align:center;
+}
+.content__event-info{
+	margin:0 auto;
+	width:880px;
+	position: relative;
+    z-index: 3;
+}
+
+
+.content_title{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+.content__event-info__notes{
+	background:#fff;
+	border-radius:8px;
+    margin-bottom:32px;
+    padding:16px 24px 14px 24px;
+    color:#404040;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.content__event-info__quest{
+    display: table-cell;
+    vertical-align: middle;
+    width: 404px;
+}
+.content__event-info__area{
+    display: table;
+    margin-right: -40px;
+    margin-bottom: 16px;
+}
+.content__event-info__quest--title{
+	background:url(ic_quest.png) left top no-repeat;
+    padding: 3px 36px 0 28px;
+    background-size: 24px 32px;
+    margin-bottom: 4px;
+    min-height: 32px;
+    color: #655cb8;
+    font-size: 18px;
+    font-weight: bold;
+}
+.content__event-info__quest--text{
+	color:#333;
+	font-size:17px;
+	margin-bottom: 24px;
+	padding-left: 4px;
+}
+.content__event-info__quest__data{
+	overflow-x:hidden;
+	overflow-y:hidden;
+	border-radius: 8px;
+	width:353px;
+	margin-left: 4px;
+}
+.content__event-info__quest__data--title{
+    padding: 4px 8px;
+    margin-left: 4px;
+    background-color: #2949a6;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+.content__event-info__quest__data--text{
+	background:#f5eeeb;
+	padding:8px 12px 1px 36px;
+}
+.content__event-info__quest__data--level{
+	color:#4c3326;
+	margin-bottom:10px;
+	display:block;
+	font-size: 15px;
+	position: relative;
+}
+.content__event-info__quest__data--level img{
+	position: absolute;
+	left:-28px;
+	top:0;
+}
+.content__event-info__quest__data--conditions{
+	color:#4d2800;
+	margin-bottom:10px;
+	display:block;
+	font-size: 17px;
+	position: relative;
+}
+.content__event-info__quest__data--conditions img{
+	position: absolute;
+	left:-28px;
+	top:0;
+}
+
+
+.content__event-info__map{
+	display: table-cell;
+}
+.content__event-reward{
+	width:880px;
+	margin:0 auto;
+	position: relative;
+	z-index: 2;
+}
+.content__event-reward__item{
+    position: relative;
+    margin: 0 auto;
+
+}
+.content__event-reward__img{
+	display: block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 8px;
+}
+
+.content__event-reward__bg{
+    position: absolute;
+    top: -100px;
+    left: 170px;
+    width: 370px;
+    height: 360px;
+    z-index: 1;
+    display: block;
+}
+
+
+
+.content__event-reward__item--title{
+    background: url(https://static.web.sdo.com/jijiamobile/pic/ff14/20230724moonfirefaire/img_rewordtitle.png) left top no-repeat;
+    padding:0 0 0 28px;
+    background-size: 24px 24px;
+    line-height: 24px;
+    color:#e56000;
+    font-size: 18px;
+    font-weight: bold;
+    position:relative;
+    z-index: 2;
+    margin-bottom: 8px;
+
+}
+.content__event-reward__item--text{
+    margin-bottom: 11px;
+    color: #662e29;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+}
+.content__event-reward__item--list{
+	margin-bottom: 12px;
+}
+.content__event-reward__item--list2{
+	margin-bottom: 0px;
+}
+.content__event-reward__item--notes{
+	max-width: 880px;
+    color: #cc2944;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto 115px;
+}
+.content__item__list {
+    display: flex;
+    justify-content: center;
+}
+.content__item__list li {
+    position: relative;
+    width: 76px;
+}
+.content__item__list li.emote p{
+    text-align: center;
+    font-size: 14px;
+    color: #662933;
+    line-height: 1;
+}
+.content__item__arms {
+    width: 392px;
+    float: left;
+    text-align: center;
+}
+.content__item__tools {
+    width: 220px;
+    float: left;
+}
+.content__item__box {
+    text-align: center;
+    width: 424px;
+}
+.content__item__inner {
+    width: 880px;
+    float: left;
+    text-align: center;
+    display:flex;
+    margin:0 auto 32px;
+}
+.content__item__area{
+	float:left;
+	width:248px
+}
+.content__item__armor {
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.content__item h3{
+    margin-bottom: 11px;
+    color: #fafafa;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content__notes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 880px;
+    margin: 0 auto;
+    padding-bottom: 110px;
+
+}
+.content__notes img{
+	display: block;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+.content__notes p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.5;
+}
+.content__bg--right{
+    width: 380px;
+    height: 468px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: 332px;
+    z-index: 1;
+}
+#contents{
+	width: 960px;
+	margin:0 auto 40px;
+}
+
+
+.f{
+  float: left;
+  position: absolute;
+}
+.r{
+  float: none;
+  position: relative;
+  top:337px;
+}
+.content__item{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 65px;
+    width: 960px;
+    padding: 0 24px;
+    box-sizing: border-box;
+
+}
+
+#special {
+    background:  #1355b3;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+#special.base_top {
+    width: 100%;
+}
+#special #contents {
+    margin-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.content__event-info__orders {
+    padding: 4px 8px;
+    margin-left: 4px;
+    background-color: #655cb8;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+.content__event-info__box {
+    padding: 8px;
+    margin-left: 4px;
+    background-color: #f5f5f5;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #333;
+}
+.content__event-info__terms{
+    background: url(https://static.web.sdo.com/jijiamobile/pic/ff14/20230724moonfirefaire/info.png) left top no-repeat;
+    padding-left: 24px;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+.content__bg_image {
+    background: url("500_bg_main.png")center top no-repeat #ffc94c; 
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.content__span {
+    max-width: 880px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto 30px;
+}
+.content__span img{
+    display: block;
+    width: 320px;
+    height: 28px;
+    margin: 0 auto 16px;
+}
+.content__span p{
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing:2px;
+    font-feature-settings: "palt";
+    color: #333;
+    line-height: 1.3;
+}
+.content__item__title {
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+.content__event-info__lead {
+    width: 880px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e56000;
+    text-align: center;
+}
+.content__event-info__add {
+    margin-bottom: 16px;
+}
